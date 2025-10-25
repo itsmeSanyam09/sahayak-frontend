@@ -10,7 +10,7 @@ export default function OfficialDashboard() {
     // Fetch user data from backend
     const fetchUsers = async () => {
       try {
-        const res = await fetch(`${import.meta.env.VITE_API_URL}/users`);
+        const res = await fetch(`https://sahayak-ai-1.onrender.com/users`);
         if (!res.ok) throw new Error("Failed to fetch users");
         const data = await res.json();
 
@@ -155,3 +155,4 @@ export default function OfficialDashboard() {
     </div>
   );
 }
+
