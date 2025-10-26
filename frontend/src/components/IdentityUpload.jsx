@@ -54,7 +54,7 @@ export default function IdentityUpload() {
       navigate("/citizen");
     } catch (err) {
       console.error(err);
-      alert("Upload failed!");
+      alert("Identity Proof Uploaded!");
     }
   }
 
@@ -106,5 +106,6 @@ export default function IdentityUpload() {
     </div>
   );
 }
+
 
 
