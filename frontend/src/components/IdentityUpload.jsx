@@ -22,7 +22,7 @@ export default function IdentityUpload() {
     }
 
     try {
-      const response = await fetch(`https://sahayak-ai-1.onrender.com/upload`, {
+      const response = await fetch(`https://sahayak-backend-cocb.onrender.com/upload`, {
         method: "POST",
         body: formData,
       });
@@ -106,4 +106,5 @@ export default function IdentityUpload() {
     </div>
   );
 }
+
 
